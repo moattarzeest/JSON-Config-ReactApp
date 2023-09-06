@@ -20,9 +20,9 @@ code {
 .imageComponent
 {
   width: 50%;
-  height: 500px;
+  height: 670px;
   position: relative;
-  left:330px;
+  left:500px;
   /* background-color: pink; */
 }
 .buttonComponent
