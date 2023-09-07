@@ -11,7 +11,7 @@ const jsonConfig =
   },
 
   { "type": "image", 
-    "src": "/ziry.jpeg", 
+    "src": "/cocomo.jpeg", 
     "alt": "My pet cat Ziry" 
   },
   { "type": "button", 
