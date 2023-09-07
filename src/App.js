@@ -16,7 +16,7 @@ const jsonConfig =
   },
   { "type": "button", 
     "label": "Mark as done", 
-    "action": "alert('Done')" 
+    "action": "Done!!" 
   }
 ];
 
