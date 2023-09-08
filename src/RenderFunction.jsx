@@ -9,7 +9,7 @@ const Components = {
   image: ImageComponent
 };
 
-export default (config) => {
+const renderComponents = (config) => {
   if (typeof Components[config.component] !== "undefined") {
     return React.createElement(Components[config.component], {
       config: config
@@ -19,3 +19,4 @@ export default (config) => {
     <div>Can not find {config.component} component</div>
   ));
 };
+export default renderComponents;
