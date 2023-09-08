@@ -1,7 +1,10 @@
 import React from "react";
 
-const ButtonComponent = ({ label, action }) => {
-  return <button onClick={() => alert(action)} className="buttonComponent">{label}</button>;
-};
-
-export default ButtonComponent;
+export default (props) => (
+  <>
+   <button className="button" onClick={()=>alert(props.config.action)}>{props.config.label}</button>
+  </>
+ 
+   
+  
+);
