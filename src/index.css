@@ -11,29 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.textComponent
+.text
 {
   color: blue;
   font-size: larger;
   text-align: center;
 }
-.imageComponent
+.image
 {
   width: 50%;
-  height: 670px;
+  height: 700px;
   position: relative;
   left:350px;
-  /* background-color: pink; */
+ 
 }
-.buttonComponent
+.button
 {
   cursor: pointer;
-  top:50px;
   width: 10%;
   height: 40px;
   text-align: center;
  position: relative;
- right:80px;
+ top:40px;
+ right:5%;
  border: none;
  border-radius: 5px;
   background-color: lightblue;
