@@ -1,7 +1,5 @@
 import React from "react";
 
-const TextComponent = ({ content }) => {
-  return <p className="textComponent">{content}</p>;
-};
-
-export default TextComponent;
+export default (props) => (
+    <h2 className="text">{props.config.content}</h2>
+);
